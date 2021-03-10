@@ -28,12 +28,12 @@ Choose [legacy code](https://github.com/emilybache/GildedRose-Refactoring-Kata) 
 HINT: Test first FTW!
 
 # Plan
-1. Write comprehensive testing for current functionality. Ensure all tests pass. Aim for 100% coverage.
-2. Refactor. The legacy code is not very DRY and has large complex if statements that code be shortened/simplified. Extract classes where appropriate (different types of item)
-3. Add "Conjured" class via TDD.
+1. Write testing for current functionality.
+2. Refactor. The code is not DRY and it has large complex if statements, that could be DRYed up. Extract classes to different types of items.
+3. Add Conjured class through TDD process.
 Classes:
 Item  
-- Regular item
+- Normal item
 - Aged brie
 - Sulfuras
 - Backstage pass
