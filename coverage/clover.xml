@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615392229362" clover="3.2.0">
-  <project timestamp="1615392229362" name="All files">
-    <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="14" methods="7" coveredmethods="7" elements="59" coveredelements="58" complexity="0" loc="37" ncloc="37" packages="1" files="6" classes="6"/>
+<coverage generated="1615393138119" clover="3.2.0">
+  <project timestamp="1615393138119" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="15" methods="7" coveredmethods="7" elements="59" coveredelements="59" complexity="0" loc="37" ncloc="37" packages="1" files="6" classes="6"/>
     <file name="aged_brie.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/aged_brie.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="1" count="2" type="stmt"/>
-      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="6" count="2" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
+      <line num="9" count="5" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
     </file>
     <file name="backstage_passes.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/backstage_passes.js">
       <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
@@ -27,10 +27,10 @@
     </file>
     <file name="item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/item.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="21" type="stmt"/>
-      <line num="4" count="21" type="stmt"/>
-      <line num="5" count="21" type="stmt"/>
-      <line num="9" count="6" type="stmt"/>
+      <line num="3" count="22" type="stmt"/>
+      <line num="4" count="22" type="stmt"/>
+      <line num="5" count="22" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
     </file>
     <file name="normal_item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/normal_item.js">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
@@ -45,12 +45,12 @@
       <line num="21" count="2" type="stmt"/>
     </file>
     <file name="shop.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/shop.js">
-      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="9" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="10" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
     </file>
     <file name="sulfuras.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/sulfuras.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

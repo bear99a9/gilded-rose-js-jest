@@ -3,7 +3,7 @@ class Shop {
     this.items = items;
   }
 
-  updateQuality() {
+  updateStockQuality() {
     for (let i = 0; i < this.items.length; i++) {
       this.items[i].updateQuality();
     }

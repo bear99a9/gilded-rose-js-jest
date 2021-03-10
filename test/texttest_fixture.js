@@ -1,18 +1,21 @@
-
-const { Shop, Item } = require('../src/gilded_rose');
+const { Shop } = require('../src/shop');
+const { NormalItem } = require('../src/normal_item');
+const { AgedBrie } = require('../src/aged_brie');
+const { Sulfuras } = require('../src/sulfuras');
+const { BackstagePasses } = require('../src/backstage_Passes');
 
 const items = [
-  new Item('+5 Dexterity Vest', 10, 20),
-  new Item('Aged Brie', 2, 0),
-  new Item('Elixir of the Mongoose', 5, 7),
-  new Item('Sulfuras, Hand of Ragnaros', 0, 80),
-  new Item('Sulfuras, Hand of Ragnaros', -1, 80),
-  new Item('Backstage passes to a TAFKAL80ETC concert', 15, 20),
-  new Item('Backstage passes to a TAFKAL80ETC concert', 10, 49),
-  new Item('Backstage passes to a TAFKAL80ETC concert', 5, 49),
+  new NormalItem('+5 Dexterity Vest', 10, 20),
+  new AgedBrie('Aged Brie', 2, 0),
+  new NormalItem('Elixir of the Mongoose', 5, 7),
+  new Sulfuras('Sulfuras, Hand of Ragnaros', 0, 80),
+  new Sulfuras('Sulfuras, Hand of Ragnaros', -1, 80),
+  new BackstagePasses('Backstage passes to a TAFKAL80ETC concert', 15, 20),
+  new BackstagePasses('Backstage passes to a TAFKAL80ETC concert', 10, 49),
+  new BackstagePasses('Backstage passes to a TAFKAL80ETC concert', 5, 49),
 
   // This Conjured item does not work properly yet
-  new Item('Conjured Mana Cake', 3, 6),
+  // new ConjuredItem('Conjured Mana Cake', 3, 6),
 ];
 
 const days = Number(process.argv[2]) || 2;
@@ -24,5 +27,5 @@ for (let day = 0; day < days; day++) {
 -------- day ${day} --------`);
   console.log('name, sellIn, quality');
   items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
-  gildedRose.updateQuality();
+  gildedRose.updateStockQuality();
 }

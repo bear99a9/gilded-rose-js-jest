@@ -16,7 +16,7 @@ describe('Gilded Rose', function () {
   new AgedBrie('brie 2', 20, 50),
 
   ]);
-  const items = gildedRose.updateQuality();
+  const items = gildedRose.updateStockQuality();
 
   it('Normal items decrease by 1 within sellin period', function () {
     expect(items[0].quality).toEqual(19);
