@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615387781374" clover="3.2.0">
-  <project timestamp="1615387781374" name="All files">
-    <metrics statements="79" coveredstatements="32" conditionals="76" coveredconditionals="13" methods="9" coveredmethods="6" elements="164" coveredelements="51" complexity="0" loc="79" ncloc="79" packages="1" files="6" classes="6"/>
+<coverage generated="1615390674868" clover="3.2.0">
+  <project timestamp="1615390674868" name="All files">
+    <metrics statements="91" coveredstatements="44" conditionals="84" coveredconditionals="21" methods="10" coveredmethods="7" elements="185" coveredelements="72" complexity="0" loc="91" ncloc="91" packages="1" files="7" classes="7"/>
     <file name="aged_brie.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/aged_brie.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
@@ -9,6 +9,21 @@
       <line num="6" count="1" type="stmt"/>
       <line num="9" count="2" type="stmt"/>
       <line num="13" count="2" type="stmt"/>
+    </file>
+    <file name="backstage_passes.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/backstage_passes.js">
+      <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
     </file>
     <file name="gilded_rose.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/gilded_rose.js">
       <metrics statements="31" coveredstatements="11" conditionals="35" coveredconditionals="7" methods="3" coveredmethods="2"/>
@@ -46,10 +61,10 @@
     </file>
     <file name="item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/item.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="9" type="stmt"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="5" count="9" type="stmt"/>
-      <line num="9" count="5" type="stmt"/>
+      <line num="3" count="14" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="5" count="14" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
     </file>
     <file name="normal_item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/normal_item.js">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
