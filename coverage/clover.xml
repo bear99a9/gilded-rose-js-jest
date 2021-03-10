@@ -1,113 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615390674868" clover="3.2.0">
-  <project timestamp="1615390674868" name="All files">
-    <metrics statements="91" coveredstatements="44" conditionals="84" coveredconditionals="21" methods="10" coveredmethods="7" elements="185" coveredelements="72" complexity="0" loc="91" ncloc="91" packages="1" files="7" classes="7"/>
+<coverage generated="1615392229362" clover="3.2.0">
+  <project timestamp="1615392229362" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="14" methods="7" coveredmethods="7" elements="59" coveredelements="58" complexity="0" loc="37" ncloc="37" packages="1" files="6" classes="6"/>
     <file name="aged_brie.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/aged_brie.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
-      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
       <line num="13" count="2" type="stmt"/>
     </file>
     <file name="backstage_passes.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/backstage_passes.js">
       <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="5" count="5" type="stmt"/>
-      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="13" count="5" type="stmt"/>
-      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="5" count="9" type="stmt"/>
+      <line num="6" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="13" count="9" type="stmt"/>
+      <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="19" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="20" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-    </file>
-    <file name="gilded_rose.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/gilded_rose.js">
-      <metrics statements="31" coveredstatements="11" conditionals="35" coveredconditionals="7" methods="3" coveredmethods="2"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="2" type="cond" truecount="3" falsecount="1"/>
-      <line num="17" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="24" count="0" type="stmt"/>
-      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="28" count="0" type="stmt"/>
-      <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="34" count="0" type="stmt"/>
-      <line num="41" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="42" count="2" type="stmt"/>
-      <line num="45" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="50" count="0" type="stmt"/>
-      <line num="54" count="0" type="stmt"/>
-      <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="58" count="0" type="stmt"/>
-      <line num="64" count="1" type="stmt"/>
-      <line num="68" count="1" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
     </file>
     <file name="item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/item.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="14" type="stmt"/>
-      <line num="4" count="14" type="stmt"/>
-      <line num="5" count="14" type="stmt"/>
+      <line num="3" count="21" type="stmt"/>
+      <line num="4" count="21" type="stmt"/>
+      <line num="5" count="21" type="stmt"/>
       <line num="9" count="6" type="stmt"/>
     </file>
     <file name="normal_item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/normal_item.js">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
-      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="13" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="14" count="1" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
       <line num="21" count="2" type="stmt"/>
     </file>
     <file name="shop.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/shop.js">
-      <metrics statements="28" coveredstatements="1" conditionals="35" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="16" count="0" type="stmt"/>
-      <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="26" count="0" type="stmt"/>
-      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="34" count="0" type="stmt"/>
-      <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="42" count="0" type="stmt"/>
-      <line num="46" count="0" type="stmt"/>
-      <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="50" count="0" type="stmt"/>
-      <line num="56" count="0" type="stmt"/>
-      <line num="60" count="1" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="9" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
     </file>
     <file name="sulfuras.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/sulfuras.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
