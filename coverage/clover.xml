@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615393138119" clover="3.2.0">
-  <project timestamp="1615393138119" name="All files">
+<coverage generated="1615395763674" clover="3.2.0">
+  <project timestamp="1615395763675" name="All files">
     <metrics statements="37" coveredstatements="37" conditionals="15" coveredconditionals="15" methods="7" coveredmethods="7" elements="59" coveredelements="59" complexity="0" loc="37" ncloc="37" packages="1" files="6" classes="6"/>
     <file name="aged_brie.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/aged_brie.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -35,13 +35,13 @@
     <file name="normal_item.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/normal_item.js">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="1" count="2" type="stmt"/>
-      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="10" count="2" type="stmt"/>
-      <line num="13" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="17" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
       <line num="21" count="2" type="stmt"/>
     </file>
     <file name="shop.js" path="/Users/seanedwards/Makers/january/week-9/gilded_rose_js_jest/src/shop.js">
