@@ -25,19 +25,7 @@ Feel free to make any changes to the `UpdateQuality` method and add any new code
 
 Choose [legacy code](https://github.com/emilybache/GildedRose-Refactoring-Kata) (translated by Emily Bache) in the language of your choice. The aim is to practice good design in the language of your choice. Refactor the code in such a way that adding the new "conjured" functionality is easy.
 
-HINT: Test first FTW!
-
-# Plan
-1. Write testing for current functionality.
-2. Refactor. The code is not DRY and it has large complex if statements, that could be DRYed up. Extract classes to different types of items.
-3. Add Conjured class through TDD process.
-Classes:
-Item  
-- Normal item
-- Aged brie
-- Sulfuras
-- Backstage pass
-- Conjured
+# Gilded Rose
 
 This is the Gilded Rose kata in JavaScript with Jest
 
@@ -47,6 +35,98 @@ Install dependencies
 
 ```sh
 npm install
+```
+
+## Running tests
+
+To run all tests
+
+```sh
+npm test
+```
+
+To run all tests in watch mode
+
+```sh
+npm run test:watch
+```
+
+To generate test coverage report
+
+```sh
+npm run test:coverage
+```
+
+To run text test
+
+```sh
+node test/texttest_fixture.js
+```
+(default is two days)  
+
+To run text test for custom number of days (e.g. 25)
+
+```sh
+node test/texttest_fixture.js 25
+```
+
+To run eslint 
+
+```sh
+npx eslint .
+```
+
+# Plan 
+
+1. Write comprehensive testing for current functionality. Ensure all tests pass. Aim for 100% coverage.
+2. Refactor. The legacy code is not very DRY and has large complex if statements that code be shortened/simplified. Extract classes where appropriate (different types of item)
+3. Add "Conjured" class via TDD. 
+
+Classes:
+Item  
+- Regular item
+- Aged brie
+- Sulfuras
+- Backstage pass
+- Conjured
+
+# Approach
+
+##### My approach to designing this solution was as follows:  
+1. Planning 
+  - I made myself familiar with the legacy code to understand what functionlity was already in place
+  - I did the above planning to calculate in advance what sort of classes I would need to extract.
+2. TDD and OOP 
+  - I started by writing feature tests for how I wished to proceed with class extraction. I let the feature tests then inform my unit tests for each class I made. I worked my way through each class using TDD in this way; passing all tests and refactoring.
+  - I used OOP to refactor the code to be much clearer and more legible
+  - Once all legacy code was passing all tests and test coverage was 100%, I moved on to TDD the solution for conjured items.
+
+# Structure 
+##### I structured my code as follows:
+As per my planning, I added five classes:   
+1. RegularItem
+2. AgedBrie
+3. Sulfuras
+4. BackstagePass
+5. ConjuredItem 
+
+Each of these classes inherited their attributes from the pre-existing Item class. I created these classes in order to follow the SRP. Each type of item's quality updated in a different way. Therefore it made sense to create many different classes, each with a method named "updateQuality", as opposed to having a long and complex 'if' statement in the Shop class.  
+I removed all conditionals from the Shop class and replaced it with a method named "updateItemQuality". This iterates over the 'items' array and calls 'updateQuality' on each item.
+
+# Dependencies 
+- jest 
+  - for testing and test coverage  
+- eslint 
+  - to linter
+
+# Solution 
+
+The following screenshot demonstrates the deprecation/improvement of each type of item over 4 days.  
+It is run by the command: 
+
+```sh
+node test/texttest_fixture.js 4
+```
 ```
 
 ## Running tests
